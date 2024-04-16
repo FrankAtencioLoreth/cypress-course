@@ -1,0 +1,9 @@
+1. npm init: configuración inicial del proyecto
+2. npm install cypress --save-dev: instalación del framework cypress
+    2.1. npm cypress install --force: forzar la instalación de cypress
+3. npm install -g npx: instalación de npx
+4. node_modules\.bin\cypress open: abre el dashboard de cypress
+    4.1 npx cypress open: ejecutar dashboard de cypress
+    
+execute using cucumber
+	npx cypress run -e TAGS='@tags'

@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "name": "cypress-course",
+  "version": "1.0.0",
+  "description": "cypress course",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrankAtencioLoreth/cypress-course.git"
+  },
+  "author": "Frank Atencio Loreth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrankAtencioLoreth/cypress-course/issues"
+  },
+  "homepage": "https://github.com/FrankAtencioLoreth/cypress-course#readme",
+  "devDependencies": {
+    "cypress": "^13.7.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^2.0.1"
+  }
+}
