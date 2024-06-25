@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/FrankAtencioLoreth/cypress-course#readme",
   "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
     "cypress": "^13.7.0",
     "cypress-iframe": "^1.0.1",
     "cypress-plugin-tab": "^1.0.5",

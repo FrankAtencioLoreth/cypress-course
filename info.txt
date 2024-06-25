@@ -4,6 +4,12 @@
 3. npm install -g npx: instalación de npx
 4. node_modules\.bin\cypress open: abre el dashboard de cypress
     4.1 npx cypress open: ejecutar dashboard de cypress
+5. RUN CLI: 
+    5.1 npx cypress run: execute all tests in console
+    5.2 npx cypress run --headed: execute all test in browser
+    5.3 npx cypress run --browser chrome: execute all test using chrome browser
+    5.4 npx cypress run --spec "path test": execute an especific test
+    5.5 npx cypress run --spec "cypress\integration\*": execute an especific folder test
     
 execute using cucumber
 	npx cypress run -e TAGS='@tags'
