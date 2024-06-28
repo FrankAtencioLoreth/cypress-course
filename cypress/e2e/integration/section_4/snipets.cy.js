@@ -1,20 +1,12 @@
-describe('Snipets section', () => {
+///<reference types='Cypress' />
+//Generated using snippets
+describe('scenario name', () => {
 
-    it('Snipets 1', () => {
+    it('test case name', () => {
 
-        cy.visit("https://demoqa.com/text-box");
-        cy.title().should("eq", "DEMOQA");
+        cy.visit('url');
+        cy.title().should('eq', 'title page');
         cy.wait(1000);
-
-        cy.get('#userName').should('be.visible');
-        cy.get('#userEmail').should('be.visible');
-        cy.get('#currentAddress').should('be.visible');
-        cy.get('#permanentAddress').should('be.visible');
-
-        cy.get('agrs').should('be.visible').type('text');
-
-        cy.get('args').should('be.visible').as('alias');
-        cy.get('@alias');
 
     });
 
