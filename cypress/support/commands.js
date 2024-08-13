@@ -23,3 +23,15 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add("login", (user, password) => {
+    cy.get('input[name="username"]').type(user);
+    cy.get('input[name="password"]').type(password);
+    cy.get('button[type="submit"').click();
+});
+
+Cypress.Commands.add("logout", () => {
+    cy.wait(2000);
+    cy.xpath('//*[@id="app"]/div[1]/div[1]/header/div[1]/div[3]/ul/li').click();
+    cy.xpath('//*[@id="app"]/div[1]/div[1]/header/div[1]/div[3]/ul/li/ul/li[4]/a').click();
+});
