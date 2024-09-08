@@ -9,5 +9,7 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
   viewportHeight:720,
   viewportWidth:1280,
-  defaultCommandTimeout: 10000
+  defaultCommandTimeout: 10000,
+  video: true,
+  videoCompression: false
 });

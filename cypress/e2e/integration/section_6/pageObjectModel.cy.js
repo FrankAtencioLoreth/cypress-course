@@ -9,11 +9,13 @@ describe('Page Object Model', () => {
     it('Login successful', () => {
        login.doLogin('Admin','admin123');
        login.loginAssertTrue();
+       cy.screenshot('Login successful');
     });
 
     it('Login unsuccessful', () => {
         login.doLogin('Admi','admin123');
         login.loginAssertFalse();
+       cy.screenshot('Login unsuccessful');
      });
 
 });
